@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Stylesheet for Hilary's Mocc Site */
+
+@font-face {font-family: Galhau;
+    src: url('Galhau_Regular.ttf') format("ttf"),
+         url("Galhau_Regular.woff2") format("woff2");}
+
+* {box-sizing: border-box;
+   font-family: Galhau;}
+
+body, html {height: 100%;
+            margin: 0;}
+
+.bg {background-image: url(bghilsite.jpeg);
+     height: 100%;
+     background-position: center;
+     background-repeat: space repeat;
+     background-size: cover;}
+
+ul.topnav {list-style-type: none;
+           margin-bottom: 2em;
+           padding: 5;
+           overflow:hidden;
+           background-color: brown;
+           opacity: 70%;
+           border-style: dotted;
+           border-radius: 100px;
+           border-width: 5px;
+           border-style: dashed solid;}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {display: block;
+                color: skyblue;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;}
+
+ul.topnav li a:hover:not(.active) {background-color: blueviolet;}
+
+ul.topnav li a.active {background-color: red;
+                       color: black}
+
+h1, h2, h3, h4 {text-align: center;}
